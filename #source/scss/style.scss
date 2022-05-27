@@ -25,6 +25,7 @@ body{
 		text-align: center;
 		padding: 20px 0;
 		font-size: 15px;
+		line-height: 1.4;
 	}
 	&__player {
 		display: flex;
@@ -49,34 +50,45 @@ body{
 		padding: 10px 20px;
 		border-radius: 5px;
 	}
+	&__restart{
+		background-color: rgb(255, 255, 255);
+		font-size: 20px;
+		padding: 10px 20px;
+		border-radius: 5px;
+		&:hover{
+			background-color: rgb(231, 231, 231);
+		}
+	}
 	&__result {
 		font-size: 20px;
 		text-align: center;
-		line-height: 1.3;
+		line-height: 1.4;
 	}
 	&__computer{
 		color: rgb(255, 196, 0);
-		font-size: 25px;
 		p{
 			display: inline;
 		}
 	}
 	&__counter{
 		color: rgb(255, 196, 0);
-		font-size: 25px;
 	}
 }
-
-
-
+.guessnumber__input:disabled{
+	opacity: 0.5;
+}
+.guessnumber__restart._hide{
+	display: none;
+}
+.guessnumber__submit._hide{
+	display: none;
+}
 /*--------Delete arrows in input--------*/
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
 	-webkit-appearance: none; 
 	margin: 0; 
 }
-
-
 /*--------Confetti--------*/
 .confetti._block{
 	display: none;
