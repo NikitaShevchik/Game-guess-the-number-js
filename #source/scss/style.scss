@@ -160,3 +160,43 @@ $duration: 900;
         transform: translateY(96px);
     }
 }
+/*--------ADAPTIVE--------*/
+@media (max-width: 760px){
+	.guessnumber{
+		padding: 30px 20px;
+	}
+}
+@media (max-width: 520px){
+	.guessnumber{
+		width: 100%;
+	}
+	.guessnumber__title{
+		font-size: 30px;
+	}
+	.guessnumber__rules{
+		text-align: center;
+		padding: 10px 0;
+		font-size: 15px;
+		line-height: 1.4;
+	}
+	.guessnumber__player{
+		width: 100%;
+	}
+	.guessnumber__button{
+		padding: 10px 0;
+		width: 100%;
+	}
+	.guessnumber__submit{
+		width: 100%;
+	}
+	.guessnumber__input{
+		width: 100%;
+	}
+	.guessnumber__restart{
+		width: 100%;
+	}
+	.guessnumber__result{
+		font-size: 15px;
+		line-height: 1.4;
+	}
+}
