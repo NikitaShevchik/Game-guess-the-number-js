@@ -1,0 +1,34 @@
+// Обнуление стилей
+@import "nullstyle.scss";
+// Подключение шрифтов
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+//SCSS
+
+.main {
+    font-family: 'Open Sans', sans-serif;
+}
+.conteiner {
+}
+.guessnumber {
+
+		&__title {
+		}
+
+		&__rules {
+		}
+
+		&__player {
+		}
+
+		&__input {
+		}
+
+		&__button {
+		}
+
+		&__submit {
+		}
+
+		&__result {
+		}
+}
